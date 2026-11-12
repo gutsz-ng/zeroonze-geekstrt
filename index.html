@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeroOnze — Não é só anime, é estilo</title>
+  <meta name="description" content="Camisetas oversized de anime ZeroOnze. Frete grátis acima de R$200 e parcelamento em até 12x.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <div class="dropdown">
+          <a href="produtos.html">Categorias</a>
+          <div class="dropdown__menu">
+            <a href="produtos.html?categoria=dragon-ball">Dragon Ball</a>
+            <a href="produtos.html?categoria=one-piece">One Piece</a>
+            <a href="produtos.html?categoria=naruto">Naruto</a>
+            <a href="produtos.html?categoria=jujutsu-kaisen">Jujutsu Kaisen</a>
+            <a href="produtos.html?categoria=attack-on-titan">Attack on Titan</a>
+          </div>
+        </div>
+        <a href="pedidos.html">Meus pedidos</a>
+      </nav>
+
+      <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="ZeroOnze"></a>
+
+      <div class="header__icons">
+        <button class="icon-btn" id="search-toggle" data-icon="busca" aria-label="Buscar"></button>
+        <a class="icon-btn account-link" href="entrar.html" data-icon="conta" data-account aria-label="Minha conta" title="Minha conta"><span class="account-hello"></span></a>
+        <button class="icon-btn" id="cart-open" data-icon="carrinho" aria-label="Carrinho">
+          <span class="cart-count"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Busca suspensa -->
+    <div class="search-pop" id="search-pop">
+      <div class="container">
+        <form class="search" action="produtos.html" method="get" role="search">
+          <input type="search" name="busca" placeholder="Buscar produtos, ex.: Dragon Ball" aria-label="Buscar produtos">
+          <button type="submit" data-icon="lupa" aria-label="Buscar"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <img src="assets/img/hero.jpg" alt="Modelos vestindo camisetas oversized ZeroOnze">
+      <h1 class="hero__title display">Não é só anime<br>é estilo</h1>
+    </section>
+
+    <p class="tagline display">Seu estilo, suas regras: vista sem pedir permissão.</p>
+
+    <!-- ============ NOVO DROP ============ -->
+    <section class="section container" id="novo-drop">
+      <h2 class="section__title display">Novo Drop - ERA DOS PIRATAS</h2>
+      <p class="section__subtitle">Sua recompensa aumentou. Garanta sua armadura pro asfalto antes que o estoque zere.</p>
+      <div class="grid grid--3" id="grid-novo" style="width:min(1171px,100%);margin-inline:auto"></div>
+    </section>
+
+    <!-- ============ DROPS EM DESTAQUE ============ -->
+    <section class="section container" id="destaques">
+      <h2 class="section__title display">Drops em<br>destaque</h2>
+      <div class="grid grid--featured" id="grid-destaque"></div>
+    </section>
+
+    <!-- ============ BENEFÍCIOS ============ -->
+    <section class="benefits container">
+      <div class="benefit">
+        <svg viewBox="0 0 124 92" aria-hidden="true">
+          <path d="M8 0h66a8 8 0 0 1 8 8v8h18a8 8 0 0 1 6.4 3.2l14 18.7A8 8 0 0 1 122 42.7V68a6 6 0 0 1-6 6h-6.2a15 15 0 0 0-29.6 0H44.8a15 15 0 0 0-29.6 0H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8Zm74 26v16h28.7L99.3 26H82Z"/>
+          <circle cx="30" cy="77" r="11"/><circle cx="95" cy="77" r="11"/>
+        </svg>
+        <h3 class="display">Frete Grátis</h3>
+        <p>Garanta frete grátis em compras acima de R$200</p>
+      </div>
+      <div class="benefit">
+        <svg viewBox="0 0 124 92" aria-hidden="true">
+          <path d="M12 0h100a12 12 0 0 1 12 12v12H0V12A12 12 0 0 1 12 0ZM0 38h124v42a12 12 0 0 1-12 12H12A12 12 0 0 1 0 80V38Zm18 20a6 6 0 0 0-6 6v8a6 6 0 0 0 6 6h12a6 6 0 0 0 6-6v-8a6 6 0 0 0-6-6H18Z"/>
+        </svg>
+        <h3 class="display">Parcelamento</h3>
+        <p>Parcele em até 12x!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (montado pelo main.js) ============ -->
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

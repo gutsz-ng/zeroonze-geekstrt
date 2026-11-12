@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacidade &amp; Dados — ZeroOnze</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header header--shop">
+    <div class="container header__inner">
+      <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="ZeroOnze"></a>
+
+      <form class="search" action="produtos.html" method="get" role="search">
+        <input type="search" name="busca" placeholder="Buscar produtos" aria-label="Buscar produtos">
+        <button type="submit" data-icon="lupa" aria-label="Buscar"></button>
+      </form>
+
+      <div class="header__icons">
+        <a class="icon-btn account-link" href="entrar.html" data-icon="conta" data-account aria-label="Minha conta" title="Minha conta"><span class="account-hello"></span></a>
+        <button class="icon-btn" id="cart-open" data-icon="carrinho" aria-label="Carrinho">
+          <span class="cart-count"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <div class="dropdown">
+          <a href="produtos.html">Categorias</a>
+          <div class="dropdown__menu">
+            <a href="produtos.html?categoria=dragon-ball">Dragon Ball</a>
+            <a href="produtos.html?categoria=one-piece">One Piece</a>
+            <a href="produtos.html?categoria=naruto">Naruto</a>
+            <a href="produtos.html?categoria=jujutsu-kaisen">Jujutsu Kaisen</a>
+            <a href="produtos.html?categoria=attack-on-titan">Attack on Titan</a>
+          </div>
+        </div>
+        <a href="pedidos.html">Meus pedidos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page policy">
+    <h1 class="display">Privacidade &amp; Dados</h1>
+
+    <h2 class="display">Quem somos</h2>
+    <!-- Substitua XX.XXX.XXX/0001-XX pelo CNPJ real -->
+    <p>A Zero Onze (By Zero Onze, CNPJ XX.XXX.XXX/0001-XX) é responsável pelo tratamento dos seus dados pessoais nesta loja virtual, na qualidade de Controladora de Dados nos termos da Lei n.º 13.709/2018 — LGPD.</p>
+
+    <h2 class="display">Para que usamos seus dados</h2>
+    <p>Coletamos apenas os dados estritamente necessários para:</p>
+    <ul>
+      <li>Processar seu pedido e emitir nota fiscal (NF-e).</li>
+      <li>Realizar a entrega no endereço informado.</li>
+      <li>Confirmar o pagamento e prevenir fraudes.</li>
+      <li>Comunicar sobre seu pedido por e-mail e telefone.</li>
+      <li>Cumprir obrigações legais (Código de Defesa do Consumidor, Receita Federal).</li>
+    </ul>
+
+    <h2 class="display">Compartilhamento</h2>
+    <p>Seus dados são compartilhados apenas com:</p>
+    <ul>
+      <li>Transportadoras (Correios, Loggi) — para entrega.</li>
+      <li>Gateway de pagamento — para processar a transação com segurança.</li>
+      <li>Autoridades públicas — quando exigido por lei.</li>
+    </ul>
+    <p>Nunca vendemos, alugamos ou cedemos seus dados a anunciantes ou terceiros para fins de marketing sem seu consentimento.</p>
+
+    <h2 class="display">Por quanto tempo guardamos</h2>
+    <p>Dados de pedidos são mantidos por 5 anos para fins fiscais e de garantia, conforme exige a legislação brasileira. Após esse prazo, são eliminados de forma segura.</p>
+
+    <h2 class="display">Segurança</h2>
+    <p>Utilizamos criptografia TLS/SSL em todas as comunicações. Dados de cartão de crédito nunca são armazenados em nossos servidores — são processados diretamente pelo gateway de pagamento certificado PCI-DSS.</p>
+
+    <h2 class="display">Contato com o DPO</h2>
+    <p>Para exercer seus direitos ou tirar dúvidas sobre privacidade, entre em contato com nosso Encarregado de Dados (DPO):</p>
+    <p><a class="policy__mail" href="mailto:zeroonze.co@gmail.com">zeroonze.co@gmail.com</a></p>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

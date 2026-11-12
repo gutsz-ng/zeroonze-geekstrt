@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar conta — ZeroOnze</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-auth">
+
+  <header class="header header--auth">
+    <div class="container header--auth__inner">
+      <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="ZeroOnze"></a>
+    </div>
+  </header>
+
+  <main class="signup" data-auth="cadastro">
+    <h1 class="signup__title display">Criar Conta</h1>
+    <form id="form-cadastro" novalidate>
+      <section class="auth-card">
+        <h2 class="auth-card__section display">Informações Pessoais</h2>
+          <label class="afield"><span>Nome Completo *</span><input name="nome" type="text" placeholder="Insira seu nome" required autocomplete="name"></label>
+          <label class="afield"><span>Como prefere ser chamado?</span><input name="apelido" type="text" placeholder="Apelido ou nome de preferência" autocomplete="nickname"></label>
+          <label class="afield"><span>CPF *</span><input name="cpf" type="text" placeholder="Insira seu CPF" required inputmode="numeric" data-mask="cpf"></label>
+          <label class="afield"><span>E-mail *</span><input name="email" type="email" placeholder="Insira seu email" required autocomplete="email"></label>
+          <label class="afield"><span>Celular *</span><input name="celular" type="tel" placeholder="Insira seu celular" required inputmode="numeric" data-mask="celular" autocomplete="tel"></label>
+          <label class="afield"><span>Senha *</span><input name="senha" type="password" placeholder="Crie uma senha (mínimo 6 caracteres)" required autocomplete="new-password"></label>
+          <label class="afield"><span>Confirmar senha *</span><input name="senha2" type="password" placeholder="Repita a senha" required autocomplete="new-password"></label>
+      </section>
+
+      <section class="auth-card">
+        <h2 class="auth-card__section display">Informações de Entrega</h2>
+          <label class="afield"><span>CEP *</span><input name="cep" type="text" placeholder="Insira seu CEP" required inputmode="numeric" data-mask="cep" autocomplete="postal-code"></label>
+          <label class="afield"><span>Endereço *</span><input name="endereco" type="text" placeholder="Insira seu endereço" required autocomplete="address-line1"></label>
+          <label class="afield"><span>Número *</span><input name="numero" type="text" placeholder="Insira o número" required inputmode="numeric"></label>
+          <label class="afield"><span>Bairro *</span><input name="bairro" type="text" placeholder="Insira seu bairro" required></label>
+          <label class="afield"><span>Cidade *</span><input name="cidade" type="text" placeholder="Insira sua cidade" required autocomplete="address-level2"></label>
+          <label class="afield"><span>Complemento</span><input name="complemento" type="text" placeholder="Insira complemento" autocomplete="address-line2"></label>
+      </section>
+
+      <label class="signup__check">
+        <input type="checkbox" name="newsletter" checked>
+        <span>Quero receber novidades da Zero Onze antes de todo mundo, além de fazer parte da newsletter. Poderá cancelar posteriormente se achar necessário.</span>
+      </label>
+      <p class="afield__error" id="cadastro-erro" aria-live="polite"></p>
+      <button class="auth-btn auth-btn--light display" type="submit">Criar Conta</button>
+      <p class="signup__login">Já tem conta? <a href="entrar.html">Acesse aqui</a>.</p>
+    </form>
+  </main>
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
