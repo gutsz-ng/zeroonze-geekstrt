@@ -190,7 +190,7 @@ Este é um projeto de front-end. Para virar uma loja real, falta:
 
 ## 10 - Créditos
 
-Projeto desenvolvido por **José Gustavo de Sousa Nogueira**.
-Contato: zeroonze.co@gmail.com
+Projeto desenvolvido por **Gustavo Nogueira**.
+Contato: gutsz.ng@gmail.com
 
-As estampas são obras da marca ZeroOnze inspiradas em animes; os personagens pertencem aos seus respectivos autores e estúdios.
+As estampas são obras da marca By Zero Onze inspiradas em animes; os personagens pertencem aos seus respectivos autores e estúdios.
