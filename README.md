@@ -1,6 +1,6 @@
-# ZeroOnze — Não é só anime, é estilo
+# ZeroOnze Geek Streetwear — Não é só anime, é estilo
 
-Loja virtual de camisetas oversized com estampas de anime. Projeto front-end feito em **HTML, CSS e JavaScript puro**, sem frameworks, com versão para computador e celular.
+Loja virtual de camisetas oversized com estampas de anime. Projeto front-end, com versão para computador e celular.
 
 > Seu estilo, suas regras: vista sem pedir permissão.
 
