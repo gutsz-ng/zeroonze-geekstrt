@@ -1,0 +1,22 @@
+{
+  "name": "zeroonze-geekstrt",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ZeroOnze — loja de camisetas oversized de anime feita em React",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:pages": "vite build --base=/zeroonze-geekstrt/ && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.3.5"
+  }
+}
