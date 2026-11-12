@@ -18,7 +18,7 @@ Por ser um protótipo de front-end, **os dados ficam salvos no navegador** (`loc
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/zeroonze-geekstrt.git
+   git clone https://github.com/gutsz-ng/zeroonze-geekstrt.git
    ```
 2. Abra a pasta no **VS Code**.
 3. Clique com o botão direito em `index.html` → **Open with Live Server** (extensão Live Server).
