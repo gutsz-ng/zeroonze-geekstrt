@@ -1,4 +1,4 @@
-# ZeroOnze — Não é só anime, é estilo
+# ZeroOnze Geek Streetwear — Não é só anime, é estilo
 
 Loja virtual de camisetas oversized com estampas de anime, feita em **React** com **Vite** e **React Router**. Tem versão para computador e para celular, seguindo os layouts do Figma.
 
@@ -204,7 +204,7 @@ Todas em preto e branco, com fotos de frente e costas.
 
 ## 10 - Créditos
 
-Projeto desenvolvido por **José Gustavo de Sousa Nogueira**.
-Contato: zeroonze.co@gmail.com
+Projeto desenvolvido por **Gustavo Nogueira**.
+Contato: gutsz.ng@gmail.com
 
-As estampas são da marca ZeroOnze, inspiradas em animes; os personagens pertencem aos seus respectivos autores e estúdios.
+As estampas são obras da marca By Zero Onze inspiradas em animes; os personagens pertencem aos seus respectivos autores e estúdios.
