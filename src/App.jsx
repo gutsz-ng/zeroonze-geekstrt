@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductListingPage from "./pages/ProductListingPage";
 import ProductViewPage from "./pages/ProductViewPage";
@@ -17,6 +17,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      {/* Quem abre ".../index.html" (link salvo, GitHub Pages) vai para o início */}
+      <Route path="/index.html" element={<Navigate to="/" replace />} />
       <Route path="/produtos" element={<ProductListingPage />} />
       <Route path="/produto/:id" element={<ProductViewPage />} />
       <Route path="/checkout" element={<CheckoutPage />} />
